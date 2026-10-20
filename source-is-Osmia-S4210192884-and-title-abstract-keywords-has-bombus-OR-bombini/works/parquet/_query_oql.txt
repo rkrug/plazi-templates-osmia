@@ -1,0 +1,6 @@
+# OpenAlex query (OQL)
+# Records: 7 | Downloaded: 2026-10-20 (UTC) | openalexPro 0.13.0
+# Exact: this OQL translates back to exactly the query that ran.
+
+get works where source is [Osmia](S4210192884)
+  and title-abstract-keywords has (bombus OR bombini)

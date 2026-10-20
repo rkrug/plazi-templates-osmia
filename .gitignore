@@ -1,0 +1,11 @@
+# Downloaded journal content: copyrighted, large, and re-creatable with the OQL query
+# recorded in each download's works/parquet/_query*.{json,txt,html}
+*.pdf
+*.parquet
+xml/
+*.grobid-xml
+.DS_Store
+.Rhistory
+# GoldenGATE batch output (gg_check.sh): large, re-creatable
+gg_out/
+gg_batch.log

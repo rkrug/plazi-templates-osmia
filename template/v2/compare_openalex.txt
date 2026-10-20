@@ -1,0 +1,29 @@
+checked 76 PDFs; 13 differences
+ pdf                  field      got                                          
+ Osmia_11_W4367058955 title      Mesocheira bicolor (FABRICIUS, 1804): new rec
+ Osmia_13_W4413460545 pagination 49–60                                        
+ Osmia_13_W4413681866 pagination 61–68                                        
+ Osmia_1_W3086338040  title      Une nouvelle lettre de contact pour les hymén
+ Osmia_2_W779366583   title      Ceylalictus variegatus (OLIVIER) (Hymenoptera
+ Osmia_7_W2890913696  title      Compte rendu des captures réalisées lors de l
+ Osmia_8_W3090761446  title      Sur l’identité du mâle de Coelioxys coturnix 
+ Osmia_NA_W7163806638 pagination 1–12                                         
+ Osmia_NA_W7166478142 DOI        10.47446/OSMIA14.2                           
+ Osmia_NA_W7166478142 pagination 13–18                                        
+ Osmia_NA_W7166478142 title      Précisions sur la première mention française 
+ Osmia_NA_W7166478142 authors(n) 2 : Rémi RUDELLE | Pierre-Olivier COCHARD    
+ Osmia_NA_W7172423327 pagination 27–36                                        
+ openalex                                     
+ Mesocheira bicolor (Fabricus, 1804): new reco
+ 49-49                                        
+ 61-61                                        
+ Éditorial : une nouvelle lettre de contact po
+ Ceylalictus variegatus (Olivier) (Hymenoptera
+ Compte-rendu des captures réalisées de la for
+ Sur l’identité de Coelioxys coturnix Pérez 18
+ 1-1                                          
+ 10.47446/osmia14.3                           
+ 19-19                                        
+ Nomada obscura Zetterstedt, 1838, une nouvell
+ 3                                            
+ 27-27                                        

@@ -1,0 +1,7 @@
+<ul>
+  <li><strong>Recognition is confirmed.</strong> GoldenGATE assigns every PDF the same style as the R checker: 30 / 14 / 29 / 3 for the four styles. GoldenGATE also tested all cached Plazi styles, and none of them claimed an Osmia PDF.</li>
+  <li><strong>Authors in volumes 6–8 (<code>2016-2020</code>) are the one real problem.</strong> In 9 PDFs, GoldenGATE keeps only the first author, or a fragment such as “Opie-Fc”. The R checker and OpenAlex both have 2–24 authors there. The author rule of that style works differently in GoldenGATE and needs fixing before the style goes into production.</li>
+  <li><strong>GoldenGATE does better than the R checker in 2 PDFs.</strong> It finds DOI, volume and pagination where the R checker found none (<code>Osmia_4_W3091727783</code>, <code>Osmia_7_W3090985975</code>), and it reads “Jean-Luc Renneson” where the R checker reads only “Luc”.</li>
+  <li><strong>The OpenAlex differences are on the OpenAlex side.</strong> Some titles are worded differently or misspelt (“Éditorial :” prefix, “Fabricus”, “Compte-rendu”). <code>Osmia_NA_W7166478142</code> is attached to the wrong OpenAlex work: its DOI, title and pages are those of the next article.</li>
+  <li>Two non-articles could not be read by GoldenGATE: a scanned PDF processed as born-digital (<code>DT=D</code>), and a full issue with an image GoldenGATE could not read back. Neither affects the styles.</li>
+</ul>

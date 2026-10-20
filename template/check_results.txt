@@ -1,0 +1,148 @@
+## Osmia.2007-2012.journal_article vs Osmia_1_W3086338040.pdf 
+  anchor DOIStamp       MATCH  [Osmia, 1: 1-2 (2007) • https://doi.org/10.47446/OSMIA1.edito ]
+  anchor RunningHead    MATCH  [OSMIA n°1 - Janvier 2007 ]
+  ID-DOI                       = 10.47446/OSMIA1.edito
+  ID-ISSN                      = 2727-3806 (fixed)
+  author                       = Nicolas VEREECKEN | Denis MICHEZ | Gilles MAHE
+  author.details.affiliation   = * Service d’Eco-Ethologie Evolutive, Université Libre de Bruxelles CP 160/12, Av. F.D. Roo
+  author.details.email         = nicolas.vereecken@ulb.ac.be
+  journal                      = Osmia (fixed)
+  pagination                   = 1-2
+  publisher                    = Observatoire des Abeilles (fixed)
+  title                        = Une nouvelle lettre de contact pour les hyménoptéristes apidologues francophones 
+  volume                       = 1
+  year                         = 2007
+  -> Osmia_1_W3086338040__Osmia.2007-2012.journal_article.pdf  
+## Osmia.2007-2012.journal_article vs Osmia_2_W3088727026.pdf 
+  anchor DOIStamp       MATCH  [Osmia, 2: 21-25 (2008) • https://doi.org/10.47446/OSMIA2.7 ]
+  anchor RunningHead    MATCH  [OSMIA n°2 - 2008 ]
+  ID-DOI                       = 10.47446/OSMIA2.7
+  ID-ISSN                      = 2727-3806 (fixed)
+  author                       = Gilles MAHÉ
+  author.details.affiliation   = * Gilles Mahé, Rue de la matte 18, F-44600 Saint-Nazaire, France. E-mail: gilles.mahe@wana
+  author.details.email         = gilles.mahe@wanadoo.fr
+  journal                      = Osmia (fixed)
+  pagination                   = 21-25
+  publisher                    = Observatoire des Abeilles (fixed)
+  title                        = Bourdons rares du Parc Naturel Régional du Queyras (Hautes-Alpes, France) 
+  volume                       = 2
+  year                         = 2008
+  -> Osmia_2_W3088727026__Osmia.2007-2012.journal_article.pdf  
+## Osmia.2007-2012.journal_article vs Osmia_3_W3091361735.pdf 
+  anchor DOIStamp       MATCH  [Osmia, 3: 12-16 (2009) • https://doi.org/10.47446/OSMIA3.5 ]
+  anchor RunningHead    MATCH  [OSMIA n°3 - 2009 ]
+  ID-DOI                       = 10.47446/OSMIA3.5
+  ID-ISSN                      = 2727-3806 (fixed)
+  author                       = David GENOUD | Pierre RASMONT
+  author.details.affiliation   = * David Genoud, 432 Route des Pyrénées, F-40390 Saint-Laurent-de- Gosse, dge-davidgenoud@o
+  author.details.email         = dge-davidgenoud@orange.fr
+  journal                      = Osmia (fixed)
+  pagination                   = 12-16
+  publisher                    = Observatoire des Abeilles (fixed)
+  title                        = Nouvelles données biogéographiques sur Bombus jonellus (KIRBY 1802) (Hymenoptera, Apidae) 
+  volume                       = 3
+  year                         = 2009
+  -> Osmia_3_W3091361735__Osmia.2007-2012.journal_article.pdf  
+## Osmia.2007-2012.journal_article vs Osmia_5_W3089573367.pdf 
+  anchor DOIStamp       MATCH  [Osmia, 5: 12-14 (2012) • https://doi.org/10.47446/OSMIA5.5 ]
+  anchor RunningHead    MATCH  [OSMIA n°5 - 2012 ]
+  ID-DOI                       = 10.47446/OSMIA5.5
+  ID-ISSN                      = 2727-3806 (fixed)
+  author                       = Simon Dellicour | Nicolas J. Vereecken | Denis MICHEZ
+  author.details.affiliation   = * Evolutionary Biology & Ecology, Université Libre de Bruxelles, CP 160/12, Av. F.D. Roose
+  author.details.email         = simon.dellicour@ulb.ac.be
+  journal                      = Osmia (fixed)
+  pagination                   = 12-14
+  publisher                    = Observatoire des Abeilles (fixed)
+  title                        = Bombus gerstaeckeri MORAWITZ 1881 (Hymenoptera, Apidae) : observations sur la biologie d’u
+  volume                       = 5
+  year                         = 2012
+  -> Osmia_5_W3089573367__Osmia.2007-2012.journal_article.pdf  
+## Osmia.2016-2020.journal_article vs Osmia_6_W3089409368.pdf 
+  anchor ArticleTab     MATCH  [BRÈVE ]
+  anchor DOIStamp       MATCH  [Osmia, 6: 6-8 (2016) • https://doi.org/10.47446/OSMIA6.2 ]
+  ID-DOI                       = 10.47446/OSMIA6.2
+  ID-ISSN                      = 2727-3806 (fixed)
+  author                       = David GENOUD | Éric DUFRÊNE
+  author.details.affiliation   = * Observatoire des Abeilles (OA), 2 Domaine Bellevue, 11290 Arzens -­‐ dge-­‐davidgenoud@o
+  author.details.email         = davidgenoud@orange.fr
+  journal                      = Osmia (fixed)
+  pagination                   = 6-8
+  publisher                    = Observatoire des Abeilles (fixed)
+  title                        = Stelis franconica BLÜTHGEN 1930 (Apoidea -­‐ Megachilidae -­‐ Anthidiini), une nouvelle es
+  volume                       = 6
+  year                         = 2016
+  -> Osmia_6_W3089409368__Osmia.2016-2020.journal_article.pdf  
+## Osmia.2016-2020.journal_article vs Osmia_7_W4206857362.pdf 
+  anchor ArticleTab     MATCH  [ARTICLE ]
+  anchor DOIStamp       MATCH  [Osmia, 7: 26-30 (2018) • https://doi.org/10.47446/OSMIA7.5 ]
+  ID-DOI                       = 10.47446/OSMIA7.5
+  ID-ISSN                      = 2727-3806 (fixed)
+  author                       = Bernard FRIN
+  author.details.affiliation   = * 29 rue des Vignes, 05200 Embrun - be.frin@wanadoo.fr 
+  author.details.email         = be.frin@wanadoo.fr
+  journal                      = Osmia (fixed)
+  pagination                   = 26-30
+  publisher                    = Observatoire des Abeilles (fixed)
+  title                        = Présence de Bombus argillaceus SCOPOLI 1763 (Apoidae – Apidae – Bombini) dans les Hautes-A
+  volume                       = 7
+  year                         = 2018
+  -> Osmia_7_W4206857362__Osmia.2016-2020.journal_article.pdf  
+## Osmia.2021-.journal_article.0cover vs Osmia_9_W3125148869.pdf 
+  anchor ISSN           MATCH  [ISSN 2727-3806 ]
+  anchor JournalName    MATCH  [Revue d’Hyménoptérologie Journal of Hymenopterology ]
+  ID-DOI                       = 10.47446/OSMIA9.1
+  ID-ISSN                      = 2727-3806 (fixed)
+  ID-ZooBank                   = BEB290E8-BD38-45B1-AE05-7EAFA6D4D5FB
+  author                       = Marco BONIFACINO
+  author.details.LSID          = 7DCB1D21-A33E-4DAD-B0E4-036555980534
+  author.details.ORCID         = 0000-0001-6190-3965
+  author.details.affiliation   = AGLIANO ICHEZ ABRICIUSANZER RICHSONADOSZKOWSKI HRISTOSSI OMBA VERSMANNRAZ RIESE OHL ICHEZ 
+  author.details.email         = mbonifacino2317@gmail.com
+  journal                      = Osmia (fixed)
+  pagination                   = 1–6
+  pubDate                      = 27 January 2020
+  publisher                    = Observatoire des Abeilles (fixed)
+  title                        = A new species for the bee fauna of Italy: Dasypoda crassicornis (FRIESE, 1896) (Hymenopter
+  volume                       = 9
+  year                         = 2021
+  -> Osmia_9_W3125148869__Osmia.2021-.journal_article.0cover.pdf  
+## Osmia.2021-.journal_article.0cover vs Osmia_10_W4293090349.pdf 
+  anchor ISSN           MATCH  [ISSN 2727-3806 ]
+  anchor JournalName    MATCH  [Revue d’Hyménoptérologie Journal of Hymenopterology ]
+  ID-DOI                       = 10.47446/OSMIA10.5
+  ID-ISSN                      = 2727-3806 (fixed)
+  ID-ZooBank                   = C5C00473-CD4B-4784-913B-F1952579D493
+  author                       = Antoine GEKIÈRE | Jean HABAY | Denis MICHEZ
+  author.details.LSID          = 41991EC2-37AD-4D31-82D7-9B30C14A8270
+  author.details.ORCID         = 0000-0001-5337-1305
+  author.details.affiliation   = [AG] Zoology Lab, Research institute for Biosciences, University of Mons, Place du Parc 23
+  author.details.email         = antoine.gekiere@umons.ac.be
+  journal                      = Osmia (fixed)
+  pagination                   = 45–54
+  pubDate                      = 31 August 2022
+  publisher                    = Observatoire des Abeilles (fixed)
+  title                        = Monitoring of parasites in bumblebee colonies developed from controlled nesting of wild qu
+  volume                       = 10
+  year                         = 2022
+  -> Osmia_10_W4293090349__Osmia.2021-.journal_article.0cover.pdf  
+## Osmia.2021-.journal_article.1cover vs Osmia_11_W4327874263.pdf 
+  anchor HALCover       MATCH  [Sparasion emarginatum Kieffer, 1906, espèce nouvelle pour la faune de ]
+  anchor ISSN           MATCH  [ISSN 2727-3806 ]
+  anchor JournalName    MATCH  [Revue d’Hyménoptérologie Journal of Hymenopterology ]
+  ID-DOI                       = 10.47446/OSMIA11.3
+  ID-ISSN                      = 2727-3806 (fixed)
+  ID-ZooBank                   = 1B4B56C5-91DB-48DB-A150-920109ED8F85
+  author                       = Téo GOEPP | Erwann MARHIC
+  author.details.LSID          = F1E715BC-2DE2-4AEF-B6EB-3A1B9B9EB58A
+  author.details.ORCID         = 0000-0001-8713-4498
+  author.details.affiliation   = OHNSON UESEBECKOHNSON ATREILLE IEFER EES ÖRSTER UTHE OSTA IEFFER IEFFER ELLÉN [TG] 364 rou
+  author.details.email         = teogoepp3@gmail.com
+  journal                      = Osmia (fixed)
+  pagination                   = 15–18
+  pubDate                      = 25 March 2023
+  publisher                    = Observatoire des Abeilles (fixed)
+  title                        = Sparasion emarginatum KIEFFER, 1906, espèce nouvelle pour la faune de France (Hymenoptera 
+  volume                       = 11
+  year                         = 2023
+  -> Osmia_11_W4327874263__Osmia.2021-.journal_article.1cover.pdf  

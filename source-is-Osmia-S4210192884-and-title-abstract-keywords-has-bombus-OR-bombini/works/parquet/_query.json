@@ -1,0 +1,36 @@
+{
+  "query_url": "https://api.openalex.org/?oql=get%20works%20where%20source%20is%20%5BOsmia%5D%28S4210192884%29%20and%20title-abstract-keywords%20has%20%28bombus%20OR%20bombini%29",
+  "via": "url",
+  "oql": "get works where source is (S4210192884)\n  and title-abstract-keywords has (bombus OR bombini)",
+  "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+      {
+        "column_id": "primary_location.source.id",
+        "value": "S4210192884"
+      },
+      {
+        "join": "or",
+        "filters": [
+          {
+            "column_id": "title_abstract_keywords.search",
+            "value": "bombus",
+            "operator": "has"
+          },
+          {
+            "column_id": "title_abstract_keywords.search",
+            "value": "bombini",
+            "operator": "has"
+          }
+        ]
+      }
+    ]
+  },
+  "records": 7,
+  "requests": 1,
+  "credits": 1,
+  "cost_usd": 0.0001,
+  "started": "2026-10-20T08:21:04Z",
+  "finished": "2026-10-20T08:21:04Z",
+  "openalexPro": "0.13.0"
+}

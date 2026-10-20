@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenAlex query (OQL)</title>
+<style>
+:root{--bg:#fff;--fg:#1f2328;--muted:#59636e;--box:#f6f8fa;--line:#d1d9e0;
+--kw:#8250df;--bool:#cf222e;--str:#0a3069;--num:#0550ae;--label:#116329;
+--ok:#1a7f37;--warn:#9a6700;}
+@media (prefers-color-scheme: dark){:root{--bg:#0d1117;--fg:#e6edf3;--muted:#9198a1;
+--box:#161b22;--line:#3d444d;--kw:#d2a8ff;--bool:#ff7b72;--str:#a5d6ff;
+--num:#79c0ff;--label:#7ee787;--ok:#3fb950;--warn:#d29922;}}
+body{background:var(--bg);color:var(--fg);margin:0 auto;max-width:920px;
+padding:24px 16px;font:15px/1.5 -apple-system,Segoe UI,Helvetica,Arial,sans-serif;}
+h1{font-size:20px;margin:0 0 4px}
+.meta{color:var(--muted);margin:0 0 16px}
+pre{background:var(--box);border:1px solid var(--line);border-radius:6px;
+padding:14px 16px;overflow-x:auto;font:14px/1.6 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+white-space:pre-wrap;word-break:break-word;}
+.kw{color:var(--kw);font-weight:600}.bool{color:var(--bool);font-weight:700}
+.str{color:var(--str)}.num{color:var(--num)}
+.label{color:var(--label);text-decoration:none;border-bottom:1px dotted var(--label)}
+.note{border-left:4px solid var(--line);padding:6px 12px;margin:0 0 16px;background:var(--box)}
+.note.exact{border-color:var(--ok)}.note.inexact{border-color:var(--warn)}
+details{margin-top:16px}summary{cursor:pointer;color:var(--muted)}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px;word-break:break-all}
+.summary{border-collapse:collapse;width:100%;margin:0 0 20px}
+.summary th,.summary td{text-align:left;padding:4px 10px;border-bottom:1px solid var(--line)}
+.summary td.n{text-align:right;font-variant-numeric:tabular-nums}
+.summary a{color:var(--fg)}
+h2{font-size:16px;margin:28px 0 4px}
+.badge{font-size:12px;padding:1px 8px;border-radius:10px;border:1px solid var(--line);white-space:nowrap}
+.badge.exact{color:var(--ok);border-color:var(--ok)}.badge.inexact{color:var(--warn);border-color:var(--warn)}
+</style></head><body>
+<h1>OpenAlex query</h1>
+<p class="meta">7 records &middot; downloaded 2026-10-20 (UTC) &middot; openalexPro 0.13.0</p>
+<p class="note exact">Exact: this OQL translates back to exactly the query that ran.</p>
+<pre><span class="kw">get</span> works <span class="kw">where</span> source <span class="kw">is</span> <a class="label" href="https://openalex.org/S4210192884" title="S4210192884">Osmia</a>
+  <span class="kw">and</span> title-abstract-keywords <span class="kw">has</span> (bombus <span class="bool">OR</span> bombini)</pre>
+<details><summary>Exact query (OQO)</summary>
+<pre>{
+  "get_rows": "works",
+  "filter_rows": [
+    {
+      "column_id": "primary_location.source.id",
+      "value": "S4210192884"
+    },
+    {
+      "join": "or",
+      "filters": [
+        {
+          "column_id": "title_abstract_keywords.search",
+          "value": "bombus",
+          "operator": "has"
+        },
+        {
+          "column_id": "title_abstract_keywords.search",
+          "value": "bombini",
+          "operator": "has"
+        }
+      ]
+    }
+  ]
+}</pre></details>
+<details><summary>Request URL</summary>
+<p><code>https://api.openalex.org/?oql=get%20works%20where%20source%20is%20%5BOsmia%5D%28S4210192884%29%20and%20title-abstract-keywords%20has%20%28bombus%20OR%20bombini%29</code></p></details>
+</body></html>

@@ -1,0 +1,63 @@
+76 PDFs recognised by check_template.R and/or GoldenGATE
+
+            
+             GoldenGATE != OpenAlex ok R checker off
+  style                           0 76             0
+  DOI                             1 73             2
+  volume                          0 75             1
+  pagination                      1 73             2
+  title                           6 70             0
+  authors                         1 73             2
+
+ 16 not ok (full values in compare3.tsv):
+ pdf                  field      check_template                     
+ Osmia_11_W4367058955 title      Mesocheira bicolor (FABRICIUS, 1804
+ Osmia_1_W3086338040  title      Une nouvelle lettre de contact pour
+ Osmia_2_W779366583   title      Ceylalictus variegatus (OLIVIER) (H
+ Osmia_3_W3090734621  authors    Luc Renneson | Yvan Barbier        
+ Osmia_4_W3091727783  DOI        <none>                             
+ Osmia_4_W3091727783  pagination <none>                             
+ Osmia_7_W2890913696  title      Compte rendu des captures réalisées
+ Osmia_7_W3090985975  DOI        <none>                             
+ Osmia_7_W3090985975  volume     <none>                             
+ Osmia_7_W3090985975  pagination <none>                             
+ Osmia_8_W3090761446  title      Sur l’identité du mâle de Coelioxys
+ Osmia_8_W3216943973  authors    Romain LE DIVELEC | Matthieu AUBERT
+ Osmia_NA_W7166478142 DOI        10.47446/OSMIA14.2                 
+ Osmia_NA_W7166478142 pagination 13–18                              
+ Osmia_NA_W7166478142 title      Précisions sur la première mention 
+ Osmia_NA_W7166478142 authors    Rémi RUDELLE | Pierre-Olivier COCHA
+ goldengate                          openalex                           
+ Mesocheira bicolor (FABRICIUS, 1804 Mesocheira bicolor (Fabricus, 1804)
+ Une nouvelle lettre de contact pour Éditorial : une nouvelle lettre de 
+ Ceylalictus variegatus (OLIVIER) (H Ceylalictus variegatus (Olivier) (H
+ Renneson, Jean-Luc | Barbier, Yvan  2                                  
+ 10.47446/OSMIA4.7                   10.47446/osmia4.7                  
+ 29-34                               29-34                              
+ Compte rendu des captures réalisées Compte-rendu des captures réalisées
+ 10.47446/OSMIA7.2                   10.47446/osmia7.2                  
+ 7                                   7                                  
+ 10-13                               10-13                              
+ Sur l’identité du mâle de Coelioxys Sur l’identité de Coelioxys coturni
+ Ledivelec, Romain | Aubert, Matthie 2                                  
+ 10.47446/OSMIA14.2                  10.47446/osmia14.3                 
+ 13-18                               19                                 
+ Précisions sur la première mention  Nomada obscura Zetterstedt, 1838, u
+ Rudelle, Rémi | Cochard, Pierre-Oli 3                                  
+ case                  
+ GoldenGATE != OpenAlex
+ GoldenGATE != OpenAlex
+ GoldenGATE != OpenAlex
+ R checker off         
+ R checker off         
+ R checker off         
+ GoldenGATE != OpenAlex
+ R checker off         
+ R checker off         
+ R checker off         
+ GoldenGATE != OpenAlex
+ R checker off         
+ GoldenGATE != OpenAlex
+ GoldenGATE != OpenAlex
+ GoldenGATE != OpenAlex
+ GoldenGATE != OpenAlex

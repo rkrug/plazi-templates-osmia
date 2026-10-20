@@ -1,0 +1,2 @@
+Osmia.2016-2020.journal_article
+  ~ docMeta.author.contextPattern	[Pp]ar\s+.*?(?=\s*R[ée]sum[ée]|\s*Abstract|$)  ->  (?:^[Pp]ar\s+|\G(?:\s|[,;&*0-9]|\(Coord\)|et\s)*)(?![Pp]ar\s)(?:([A-ZÀ-Ý][a-zà-ÿ\-\']+|[A-Z]\.)(\s*\-?\s*[A-ZÀ-Ý][a-zà-ÿ\-\']+)*(\s*[A-Z]{1,2}\.?(?=\s))*(\s*[A-Z]\.)*(\s*(DE|DA|DI|DU|LE|LA|VAN|VON|D\')?\s*[A-ZÀ-Ý][A-ZÀ-Ý\-\']+)+|[A-ZÀ-Ý][a-zà-ÿ\-\']+(\s+[A-Z]\.?)*(\s+[A-ZÀ-Ý][a-zà-ÿ\-\']+)+(?=\s*[\*0-9]))

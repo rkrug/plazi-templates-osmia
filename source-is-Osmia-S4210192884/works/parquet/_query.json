@@ -1,0 +1,21 @@
+{
+  "query_url": "https://api.openalex.org/?oql=get%20works%20where%20source%20is%20%5BOsmia%5D%28S4210192884%29",
+  "via": "url",
+  "oql": "get works where source is (S4210192884)",
+  "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+      {
+        "column_id": "primary_location.source.id",
+        "value": "S4210192884"
+      }
+    ]
+  },
+  "records": 123,
+  "requests": 1,
+  "credits": 1,
+  "cost_usd": 0.0001,
+  "started": "2026-10-20T08:21:28Z",
+  "finished": "2026-10-20T08:21:30Z",
+  "openalexPro": "0.13.0"
+}
