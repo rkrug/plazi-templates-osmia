@@ -1,6 +1,8 @@
 # Downloaded journal content: copyrighted, large, and re-creatable with the OQL query
 # recorded in each download's works/parquet/_query*.{json,txt,html}
 *.pdf
+# except the annotated example copies (step 4 of the skill); Osmia is open access
+!**/annotated/*.pdf
 *.parquet
 xml/
 *.grobid-xml
