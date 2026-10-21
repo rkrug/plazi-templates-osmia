@@ -1,0 +1,20 @@
+installed Osmia.2007-2012.journal_article as CCF24C26B4701EB4B4AFDED8451A7ABE
+installed Osmia.2016-2020.journal_article as A8ECF6DB74A5C8520EC9D7F992AF93AB
+installed Osmia.2021-.journal_article.0cover as 764F541AB119DFAB4E804723DD716A08
+installed Osmia.2021-.journal_article.1cover as D86D83EE84BC55053C7CE3142227979C
+Osmia_11_W4389497131.pdf': Too few words per page (209 on 24 pages, less than 25)
+Osmia_7_W4236312236.pdf': Error reading PNG image data
+76 full IMFs in gg_full/; totals:
+  taxonomicName 8747
+  bibRef 1502
+  bibRefCitation 2442
+  materialsCitation 289
+  treatment 21
+  figureCitation 410
+  tableCitation 4
+  tables 56
+  figures 1005
+  blocker 1402
+  critical 3997
+  major 1268
+  minor 2472
