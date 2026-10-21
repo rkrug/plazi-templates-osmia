@@ -1,5 +1,5 @@
 @docStyleName	Osmia.2021-.journal_article.1cover
-@docStyleVersion	2
+@docStyleVersion	4
 @syntaxVersion	1
 anchor.HALCover.area	[0,600,0,850]
 anchor.HALCover.isRequired	true
@@ -101,11 +101,13 @@ ggServer.imp.userCerts.IM_metadata_approval	approve
 ggServer.imp.userCerts.IM_taxonomicNames_approval	approve
 ggServer.imp.userCerts.IM_treatmentCitations_approval	approve
 ggServer.imp.userCerts.IM_treatments_approval	approve
+layout.caption.aboveTable	true
 layout.caption.belowFigure	true
-layout.caption.figureStartPatterns	Figure(s)?\s*[0-9]+
+layout.caption.figureStartPatterns	(Fig(ure)?(s)?|FIG(URE)?(S)?|Map(s)?|MAP(S)?|Carte(s)?|CARTE(S)?)\.?
+layout.caption.figureWholeBlock	true
 layout.caption.maxFontSize	9
 layout.caption.minFontSize	9
-layout.caption.tableStartPatterns	Table(s)?\s*[0-9]+
+layout.caption.tableStartPatterns	Table(s)?|TABLE(S)?|Tableau(x)?|TABLEAU(X)?
 layout.columnCount	2
 layout.contentArea	[45,550,30,825]
 layout.coverPageCount	1
@@ -126,7 +128,7 @@ style.heading.1.fontSize	12
 style.heading.1.isAllCaps	true
 style.heading.1.isBold	true
 style.heading.1.level	1
-style.heading.1.startPatterns	INTRODUCTION   MATERIALS?\s*AND\s*METHODS   RESULTS   DISCUSSION   CONCLUSIONS?   ACKNOWLEDGEMENTS   REFERENCES
+style.heading.1.startPatterns	INTRODUCTION   MATERIALS?\s*AND\s*METHODS   RESULTS   DISCUSSION   CONCLUSIONS?   ACKNOWLEDGEMENTS   REFERENCES   R[ÉE]SULTATS   MAT[ÉE]RIELS?\s*ET\s*M[ÉE]THODES?   REMERCIEMENTS   R[ÉE]F[ÉE]RENCES(\s*BIBLIOGRAPHIQUES)?   BIBLIOGRAPHIE
 style.heading.2.alignment	left
 style.heading.2.fontSize	11
 style.heading.2.isBold	true

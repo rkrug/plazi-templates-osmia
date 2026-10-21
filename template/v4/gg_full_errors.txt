@@ -1,0 +1,2 @@
+Osmia_7_W4236312236.pdf': Error reading PNG image data
+Osmia_11_W4389497131.pdf': Too few words per page (209 on 24 pages, less than 25)

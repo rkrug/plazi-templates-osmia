@@ -1,5 +1,5 @@
 @docStyleName	Osmia.2007-2012.journal_article
-@docStyleVersion	2
+@docStyleVersion	4
 @syntaxVersion	1
 anchor.DOIStamp.area	[150,400,0,16]
 anchor.DOIStamp.fontSize	7
@@ -45,6 +45,10 @@ docMeta.pagination.contextPattern	\:\s*[0-9]+(\s*\-\s*[0-9]+)?\s*\(
 docMeta.pagination.fontSize	7
 docMeta.pagination.maxPageId	0
 docMeta.pagination.valuePattern	[0-9]+(\s*\-\s*[0-9]+)?
+docMeta.pubDate.area	[200,345,14,32]
+docMeta.pubDate.fontSize	10
+docMeta.pubDate.maxPageId	0
+docMeta.pubDate.valuePattern	([A-Za-zÀ-ÿ]+\s+)?[0-9]{4}
 docMeta.publisher.fixedValue	Observatoire des Abeilles
 docMeta.title.area	[15,580,30,220]
 docMeta.title.isBold	true
@@ -78,11 +82,13 @@ ggServer.imp.userCerts.IM_metadata_approval	approve
 ggServer.imp.userCerts.IM_taxonomicNames_approval	approve
 ggServer.imp.userCerts.IM_treatmentCitations_approval	approve
 ggServer.imp.userCerts.IM_treatments_approval	approve
+layout.caption.aboveTable	true
 layout.caption.belowFigure	true
-layout.caption.figureStartPatterns	Figure(s)?\s*[0-9]+
+layout.caption.figureStartPatterns	(Fig(ure)?(s)?|FIG(URE)?(S)?|Map(s)?|MAP(S)?|Carte(s)?|CARTE(S)?)\.?
+layout.caption.figureWholeBlock	true
 layout.caption.maxFontSize	8
 layout.caption.minFontSize	7
-layout.caption.tableStartPatterns	Tableau(x)?\s*[0-9]+|Table(s)?\s*[0-9]+
+layout.caption.tableStartPatterns	Table(s)?|TABLE(S)?|Tableau(x)?|TABLEAU(X)?
 layout.columnCount	2
 layout.contentArea	[25,585,0,830]
 layout.page.even.columnAreas	[30,262,32,805]   [274,507,32,805]

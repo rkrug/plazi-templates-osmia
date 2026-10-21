@@ -1,0 +1,30 @@
+Osmia.2007-2012.journal_article
+  + docMeta.pubDate.area	[200,345,14,32]
+  + docMeta.pubDate.fontSize	10
+  + docMeta.pubDate.maxPageId	0
+  + docMeta.pubDate.valuePattern	([A-Za-zÀ-ÿ]+\s+)?[0-9]{4}
+  + layout.caption.aboveTable	true
+  + layout.caption.figureWholeBlock	true
+  ~ layout.caption.figureStartPatterns	Figure(s)?\s*[0-9]+  ->  (Fig(ure)?(s)?|FIG(URE)?(S)?|Map(s)?|MAP(S)?|Carte(s)?|CARTE(S)?)\.?
+  ~ layout.caption.tableStartPatterns	Tableau(x)?\s*[0-9]+|Table(s)?\s*[0-9]+  ->  Table(s)?|TABLE(S)?|Tableau(x)?|TABLEAU(X)?
+Osmia.2016-2020.journal_article
+  + docMeta.pubDate.area	[50,545,20,320]
+  + docMeta.pubDate.contextPattern	Publication\s*:\s*[A-Za-zÀ-ÿ]+\s*[0-9]{4}|\(\s*[0-9]{4}\s*\)(?!.*Publication\s*:)
+  + docMeta.pubDate.maxPageId	0
+  + docMeta.pubDate.valuePattern	(?i:(?:janvier|mars|avril|mai|juin|juillet|septembre|octobre|novembre)\s+)?[0-9]{4}
+  + layout.caption.aboveTable	true
+  + layout.caption.figureWholeBlock	true
+  ~ layout.caption.figureStartPatterns	Figure(s)?\s*[0-9]+  ->  (Fig(ure)?(s)?|FIG(URE)?(S)?|Map(s)?|MAP(S)?|Carte(s)?|CARTE(S)?)\.?
+  ~ layout.caption.tableStartPatterns	Tableau(x)?\s*[0-9]+|Table(s)?\s*[0-9]+  ->  Table(s)?|TABLE(S)?|Tableau(x)?|TABLEAU(X)?
+Osmia.2021-.journal_article.0cover
+  + layout.caption.aboveTable	true
+  + layout.caption.figureWholeBlock	true
+  ~ layout.caption.figureStartPatterns	Figure(s)?\s*[0-9]+  ->  (Fig(ure)?(s)?|FIG(URE)?(S)?|Map(s)?|MAP(S)?|Carte(s)?|CARTE(S)?)\.?
+  ~ layout.caption.tableStartPatterns	Table(s)?\s*[0-9]+  ->  Table(s)?|TABLE(S)?|Tableau(x)?|TABLEAU(X)?
+  ~ style.heading.1.startPatterns	INTRODUCTION   MATERIALS?\s*AND\s*METHODS   RESULTS   DISCUSSION   CONCLUSIONS?   ACKNOWLEDGEMENTS   REFERENCES  ->  INTRODUCTION   MATERIALS?\s*AND\s*METHODS   RESULTS   DISCUSSION   CONCLUSIONS?   ACKNOWLEDGEMENTS   REFERENCES   R[ÉE]SULTATS   MAT[ÉE]RIELS?\s*ET\s*M[ÉE]THODES?   REMERCIEMENTS   R[ÉE]F[ÉE]RENCES(\s*BIBLIOGRAPHIQUES)?   BIBLIOGRAPHIE
+Osmia.2021-.journal_article.1cover
+  + layout.caption.aboveTable	true
+  + layout.caption.figureWholeBlock	true
+  ~ layout.caption.figureStartPatterns	Figure(s)?\s*[0-9]+  ->  (Fig(ure)?(s)?|FIG(URE)?(S)?|Map(s)?|MAP(S)?|Carte(s)?|CARTE(S)?)\.?
+  ~ layout.caption.tableStartPatterns	Table(s)?\s*[0-9]+  ->  Table(s)?|TABLE(S)?|Tableau(x)?|TABLEAU(X)?
+  ~ style.heading.1.startPatterns	INTRODUCTION   MATERIALS?\s*AND\s*METHODS   RESULTS   DISCUSSION   CONCLUSIONS?   ACKNOWLEDGEMENTS   REFERENCES  ->  INTRODUCTION   MATERIALS?\s*AND\s*METHODS   RESULTS   DISCUSSION   CONCLUSIONS?   ACKNOWLEDGEMENTS   REFERENCES   R[ÉE]SULTATS   MAT[ÉE]RIELS?\s*ET\s*M[ÉE]THODES?   REMERCIEMENTS   R[ÉE]F[ÉE]RENCES(\s*BIBLIOGRAPHIQUES)?   BIBLIOGRAPHIE

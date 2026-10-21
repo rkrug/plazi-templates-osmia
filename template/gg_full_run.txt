@@ -2,19 +2,110 @@ installed Osmia.2007-2012.journal_article as CCF24C26B4701EB4B4AFDED8451A7ABE
 installed Osmia.2016-2020.journal_article as A8ECF6DB74A5C8520EC9D7F992AF93AB
 installed Osmia.2021-.journal_article.0cover as 764F541AB119DFAB4E804723DD716A08
 installed Osmia.2021-.journal_article.1cover as D86D83EE84BC55053C7CE3142227979C
-Osmia_11_W4389497131.pdf': Too few words per page (209 on 24 pages, less than 25)
 Osmia_7_W4236312236.pdf': Error reading PNG image data
+Osmia_11_W4389497131.pdf': Too few words per page (209 on 24 pages, less than 25)
 76 full IMFs in gg_full/; totals:
-  taxonomicName 8747
+  taxonomicName 8748
   bibRef 1502
   bibRefCitation 2442
   materialsCitation 289
   treatment 21
-  figureCitation 410
-  tableCitation 4
+  figureCitation 415
+  tableCitation 23
   tables 56
   figures 1005
-  blocker 1402
-  critical 3997
-  major 1268
-  minor 2472
+  blocker 1404
+  critical 3956
+  major 1319
+  minor 2469
+wrote qc_report.html: 9148 errors in 76 of 76 PDFs
+
+ blocker critical    major    minor 
+    1404     3956     1319     2469 
+GoldenGATE assigned:
+
+                              none    Osmia.2007-2012.journal_article 
+                                20                                 30 
+   Osmia.2016-2020.journal_article Osmia.2021-.journal_article.0cover 
+                                14                                 29 
+Osmia.2021-.journal_article.1cover 
+                                 3 
+
+style differs from check_template.R: 0 PDFs
+76 PDFs recognised by check_template.R and/or GoldenGATE
+
+            
+             check PDF GoldenGATE != OpenAlex ok R checker off
+  style              0                      0 76             0
+  DOI                1                      1 72             2
+  volume             1                      0 74             1
+  pagination         1                      1 72             2
+  title              1                      6 69             0
+  authors            1                      1 73             1
+
+ 20 not ok (full values in compare3.tsv):
+ pdf                  field      check_template                     
+ Osmia_11_W4367058955 title      Mesocheira bicolor (FABRICIUS, 1804
+ Osmia_1_W3086338040  title      Une nouvelle lettre de contact pour
+ Osmia_2_W779366583   title      Ceylalictus variegatus (OLIVIER) (H
+ Osmia_3_W3090734621  authors    Luc Renneson | Yvan Barbier        
+ Osmia_4_W3091727783  DOI        <none>                             
+ Osmia_4_W3091727783  pagination <none>                             
+ Osmia_7_W2890913696  title      Compte rendu des captures réalisées
+ Osmia_7_W3090985975  DOI        <none>                             
+ Osmia_7_W3090985975  volume     <none>                             
+ Osmia_7_W3090985975  pagination <none>                             
+ Osmia_8_W3090761446  title      Sur l’identité du mâle de Coelioxys
+ Osmia_8_W3216943973  DOI        10.47446/OSMIA8.6                  
+ Osmia_8_W3216943973  volume     8                                  
+ Osmia_8_W3216943973  pagination 82-86                              
+ Osmia_8_W3216943973  title      Premières données sur Osmia (Pyrosm
+ Osmia_8_W3216943973  authors    Romain LE DIVELEC | Matthieu AUBERT
+ Osmia_NA_W7166478142 DOI        10.47446/OSMIA14.2                 
+ Osmia_NA_W7166478142 pagination 13–18                              
+ Osmia_NA_W7166478142 title      Précisions sur la première mention 
+ Osmia_NA_W7166478142 authors    Rémi RUDELLE | Pierre-Olivier COCHA
+ goldengate                          openalex                           
+ Mesocheira bicolor (FABRICIUS, 1804 Mesocheira bicolor (Fabricus, 1804)
+ Une nouvelle lettre de contact pour Éditorial : une nouvelle lettre de 
+ Ceylalictus variegatus (OLIVIER) (H Ceylalictus variegatus (Olivier) (H
+ Renneson, Jean-Luc | Barbier, Yvan  2                                  
+ 10.47446/OSMIA4.7                   10.47446/osmia4.7                  
+ 29-34                               29-34                              
+ Compte rendu des captures réalisées Compte-rendu des captures réalisées
+ 10.47446/OSMIA7.2                   10.47446/osmia7.2                  
+ 7                                   7                                  
+ 10-13                               10-13                              
+ Sur l’identité du mâle de Coelioxys Sur l’identité de Coelioxys coturni
+ <none>                              10.47446/osmia8.6                  
+ <none>                              8                                  
+ <none>                              82-86                              
+ <none>                              Premières données sur Osmia (Pyrosm
+ <none>                              2                                  
+ 10.47446/OSMIA14.2                  10.47446/osmia14.3                 
+ 13-18                               19                                 
+ Précisions sur la première mention  Nomada obscura Zetterstedt, 1838, u
+ Rudelle, Rémi | Cochard, Pierre-Oli 3                                  
+ case                  
+ GoldenGATE != OpenAlex
+ GoldenGATE != OpenAlex
+ GoldenGATE != OpenAlex
+ R checker off         
+ R checker off         
+ R checker off         
+ GoldenGATE != OpenAlex
+ R checker off         
+ R checker off         
+ R checker off         
+ GoldenGATE != OpenAlex
+ check PDF             
+ check PDF             
+ check PDF             
+ check PDF             
+ check PDF             
+ GoldenGATE != OpenAlex
+ GoldenGATE != OpenAlex
+ GoldenGATE != OpenAlex
+ GoldenGATE != OpenAlex
+wrote template_report.html
+finished Wed Oct 21 11:28:56 CEST 2026

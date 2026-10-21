@@ -1,20 +1,20 @@
-# Osmia document styles — version 3
+# Osmia document styles — version 4
 
 Plazi/GoldenGATE document styles for **Osmia — Revue d'Hyménoptérologie /
 Journal of Hymenopterology** (Observatoire des Abeilles, ISSN 2727-3806, DOI
 prefix `10.47446/OSMIA`). Format and key meanings: see
 `../../PLAZI_templates/README.md`; all styles start from
 `_baseTemplate.0000.journal_article`. Version 1 (built from 5 PDFs) is kept in
-`v1/`, version 2 with its results in `v2/`.
+`v1/`, versions 2 and 3 with their results in `v2/` and `v3/`.
 
 ## Styles
 
 | Style | Version | Volumes | Recognised by (anchors) |
 |---|---|---|---|
-| `Osmia.2007-2012.journal_article` | 2 | 1–5 | running head `OSMIA n°5 - 2012` / `OSMIA n°1 - Janvier 2007` (required); DOI line at the top (optional) |
-| `Osmia.2016-2020.journal_article` | 3 | 6–8 | `ARTICLE` or `BRÈVE` tab top-left, 13 pt bold (required); DOI line top-right (optional) |
-| `Osmia.2021-.journal_article.0cover` | 2 | 9–14 | "Revue d'Hyménoptérologie" masthead + `ISSN 2727-3806` |
-| `Osmia.2021-.journal_article.1cover` | 2 | 9–14, HAL copies | as `.0cover`, one page later, plus the HAL cover page ("To cite this version" / "HAL Id") in front |
+| `Osmia.2007-2012.journal_article` | 4 | 1–5 | running head `OSMIA n°5 - 2012` / `OSMIA n°1 - Janvier 2007` (required); DOI line at the top (optional) |
+| `Osmia.2016-2020.journal_article` | 4 | 6–8 | `ARTICLE` or `BRÈVE` tab top-left, 13 pt bold (required); DOI line top-right (optional) |
+| `Osmia.2021-.journal_article.0cover` | 4 | 9–14 | "Revue d'Hyménoptérologie" masthead + `ISSN 2727-3806` |
+| `Osmia.2021-.journal_article.1cover` | 4 | 9–14, HAL copies | as `.0cover`, one page later, plus the HAL cover page ("To cite this version" / "HAL Id") in front |
 
 Extracted: title, authors, affiliations, e-mails, volume, year, pagination,
 DOI; for 2021- also ORCID, author ZooBank LSIDs, article ZooBank ID and
@@ -43,7 +43,7 @@ Run `sh run_all.sh <pdf folder>` then `Rscript compare_openalex.R <download fold
 
 - **GoldenGATE** (`gg_check.sh` from the skill, GoldenGATE Imagine Batch with
   StructureDetector + MetaDataAdder; `gg_values.tsv`, `compare3.tsv`,
-  `template_report.html`): the same style for every PDF as the checker, and no
+  `template_report.html`, version 4 from the full pipeline run): the same style for every PDF as the checker, and no
   other Plazi style claims an Osmia PDF. Values agree with the checker except
   where GoldenGATE does better (DOI/volume/pagination of `4_W3091727783` and
   `7_W3090985975`, "Jean-Luc" Renneson) and the OpenAlex differences above.
@@ -52,6 +52,24 @@ Run `sh run_all.sh <pdf folder>` then `Rscript compare_openalex.R <download fold
 
 v1 on the same PDFs: 64 recognised, 12 real articles missed, and e.g. DOI
 found in 14 / 29 and publication date in 1 / 29 of the 2021- articles.
+
+## Changes v3 → v4
+
+From the quality control of the full Plazi pipeline (`qc_report.html`):
+
+- Publication date: 2007-2012 from the running head (`Janvier 2007`, or the
+  year), 2016-2020 from `Publication : <month year>` or the citation year.
+  Only months GoldenGATE can parse are kept (not février, août, décembre):
+  an unparseable date makes GoldenGATE silently drop all metadata of the
+  article. Missing-date errors 30 → 1.
+- Captions, all styles: Plazi's start words
+  `(Fig(ure)?(s)?|FIG(URE)?(S)?|Map(s)?|MAP(S)?|Carte(s)?|CARTE(S)?)\.?` and
+  `Table(s)?|TABLE(S)?|Tableau(x)?|TABLEAU(X)?` instead of patterns including
+  the number, `figureWholeBlock`, `aboveTable`. Missed captions 121 → 109.
+- 2021-: French section headings (RÉFÉRENCES, RÉSULTATS, MATÉRIEL ET
+  MÉTHODES, REMERCIEMENTS, BIBLIOGRAPHIE). Recognised now, but GoldenGATE
+  still leaves the reference list outside any section in 10 PDFs.
+- No extracted value changed (`version_changes.tsv`).
 
 ## Changes v2 → v3
 
