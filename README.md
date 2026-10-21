@@ -2,7 +2,7 @@
 
 Plazi/GoldenGATE document styles ("journal templates") for **Osmia — Revue
 d'Hyménoptérologie / Journal of Hymenopterology** (ISSN 2727-3806), built and
-checked with the `plazi-journal-template` skill (repository `goldengate`).
+checked with the `plazi-journal-template` skill (repository [rkrug/plazi-journal-templates](https://github.com/rkrug/plazi-journal-templates)).
 
 - `template/` — the current styles (version 4), their check results,
   `template_report.html` and `qc_report.html` (GoldenGATE's quality
