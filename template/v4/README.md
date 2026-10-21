@@ -111,7 +111,7 @@ From the quality control of the full Plazi pipeline (`qc_report.html`):
   `layout.coverPageCount`; not `filterPatterns`.
 - `run_all.sh <pdf folder>` → `verification_all_pdfs.tsv` (+ `.log`).
 - `compare_openalex.R <download folder>` → `compare_openalex.txt`.
-- `check_results.txt` + `Osmia_<vol>_<work>__<style>.pdf` — annotated
+- `check_results.txt` + `annotated/Osmia_<vol>_<work>__<style>.pdf` — annotated
   examples, one or more per style.
 
 ## Not verified
