@@ -6,6 +6,8 @@ xml/
 *.grobid-xml
 .DS_Store
 .Rhistory
-# GoldenGATE batch output (gg_check.sh): large, re-creatable
+# GoldenGATE batch output (gg_check.sh, also -full): large, re-creatable
 gg_out/
 gg_batch.log
+gg_full/
+gg_full_batch.log
