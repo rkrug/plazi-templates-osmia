@@ -12,7 +12,7 @@ checked with the `plazi-journal-template` skill (repository [rkrug/plazi-journal
   example PDFs (`vN/annotated/`, not in git);
   `vN/changes.txt` lists what changed in each style.
 - [Releases](https://github.com/rkrug/plazi-templates-osmia/releases) v1–v4:
-  per version the annotated example PDFs and the GoldenGATE run (v3:
+  per version a zip (two for v3 and v4) with the annotated example PDFs and the GoldenGATE run (v3:
   structure and metadata, v4: the whole Plazi pipeline with IMFs, figures,
   error protocols and Darwin Core Archives), too large for git.
 - `source-is-…/` — the OpenAlex queries of the downloads the styles were
@@ -30,16 +30,15 @@ in, and on macOS APFS for `cp -c`):
 
 ```bash
 # 1. the repository, next to the skill's repository (paths in the reports assume ~/GitHub/goldengate/osmia)
-cd ~/GitHub/goldengate && gh repo clone rkrug/plazi-templates-osmia osmia && cd osmia/template
+cd ~/GitHub/goldengate && gh repo clone rkrug/plazi-templates-osmia osmia && cd osmia
 
-# 2. per version: annotated examples (also in git) and the GoldenGATE runs, from the releases
+# 2. per version: annotated examples and GoldenGATE runs; the zips unpack into template/vN/
 R=rkrug/plazi-templates-osmia
-for v in v1 v2 v3 v4; do gh release download $v -R $R -p '*__*.pdf' -D $v/annotated --skip-existing; done
-gh release download v3 -R $R -p '*.pdf.imf*' -D v3/gg_out
-gh release download v4 -R $R -p '*.pdf.imf*' -D v4/gg_full
+for v in v1 v2 v3 v4; do gh release download $v -R $R -p '*.zip'; done
+for z in osmia-v*.zip; do unzip -o -q "$z"; done && rm osmia-v*.zip
 
 # 3. the working copies of the last runs (clones, no extra disk space)
-cp -c -R v4/gg_full gg_full && cp -c -R v3/gg_out gg_out
+cd template && cp -c -R v4/gg_full gg_full && cp -c -R v3/gg_out gg_out
 ```
 
 4. **Downloaded articles and OpenAlex records** (`source-is-…/pdf/`,
