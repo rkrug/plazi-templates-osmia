@@ -11,6 +11,9 @@ checked with the `plazi-journal-template` skill (repository [rkrug/plazi-journal
 - `template/v1/` … `v4/` — frozen versions with their results and annotated
   example PDFs (`vN/annotated/`, not in git);
   `vN/changes.txt` lists what changed in each style.
+- GoldenGATE output (IMFs with figures and error protocols) of version 4:
+  release [v4](https://github.com/rkrug/plazi-templates-osmia/releases/tag/v4)
+  (`gh release download v4 -R rkrug/plazi-templates-osmia -D gg_full`).
 - `source-is-…/` — the OpenAlex queries of the downloads the styles were
   tested on (`works/parquet/_query_oql.txt`).
 
